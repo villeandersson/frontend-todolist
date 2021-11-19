@@ -26,7 +26,7 @@ function App() {
           Description:
           <input type="text" value={kuvaus} onChange={inputChanged} />
           Date:
-          <input type="text" value={pvm} onChange={inputChanged2} />
+          <input type="date" value={pvm} onChange={inputChanged2} />
           <input type="submit" value="Add" />
         </form>
       </div>
@@ -38,8 +38,8 @@ function App() {
           </tr>
           {todos.map((todo, index) => (
             <tr key={index}>
-              <td>{todo[0]}</td>
               <td>{todo[1]}</td>
+              <td>{todo[0]}</td>
             </tr>
           ))}
         </tbody>

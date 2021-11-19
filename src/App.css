@@ -50,18 +50,15 @@
 }
 
 table {
-  margin: auto;
-  width: 60%;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  text-align: follow-parent;
 }
 
 th {
   border-bottom: 1px dashed rgb(82, 82, 82);
 }
-
-td {
-  border-bottom: 1px dashed rgb(82, 82, 82);
-}
-
 tr {
   border-bottom: 1px dashed rgb(82, 82, 82);
 }
